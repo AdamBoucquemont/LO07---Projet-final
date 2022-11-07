@@ -1,0 +1,63 @@
+<!-- ----- début fragmentSiteMenu -->
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="router.php?action=SiteAccueil">BOUCQUEMONT</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">Gestion des Vaccins <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router.php?action=vaccinReadAll">Liste des vaccins</a></li>
+          <li><a href="router.php?action=vaccinCreate">Ajout d'un vaccins</a></li>
+          <li><a href="router.php?action=vaccinModif">Mise à jour d'un vaccins</a></li>                       
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">Gestion des Centres <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router.php?action=centreReadAll">Liste des centres</a></li>
+          <li><a href="router.php?action=centreCreate">Ajout d'un centre</a></li>                      
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">Gestion des Patients <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router.php?action=patientReadAll">Liste des patients</a></li>
+          <li><a href="router.php?action=patientCreate">Ajout d'un patient</a></li>                      
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">Gestion des Stocks <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router.php?action=stockReadAll">Liste des centres avec le nombre de doses de chaque vaccins</a></li>
+          <li><a href="router.php?action=stockReadByCentre">Liste des doses par centre</a></li>
+          <li><a href="router.php?action=stockModif">Modifier les stocks</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">Gestion des Rendez-vous <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router.php?action=rendezvousChoixPatient">Dossier de vaccination d'un patient</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false"> Mes innovations <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="">Innovation 1</a></li>
+          <li><a href="">Innovation 2</a></li>
+          <li><a href="">Innovation 3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ----- fin fragmentSiteMenu -->
